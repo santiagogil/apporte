@@ -1,0 +1,28 @@
+{
+  "name": "apporte",
+  "version": "0.0.1",
+  "description": "Herramienta de gestión para administradores de red del programa Conectar Igualdad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/santiagogil/apporte"
+  },
+  "author": "Santiago Gil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiagogil/apporte/issues"
+  },
+  "homepage": "https://github.com/santiagogil/apporte",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "ecstatic": "^0.8.0",
+    "level-browserify": "^1.0.0",
+    "multilevel": "^6.1.0",
+    "shoe": "0.0.15"
+  }
+}
