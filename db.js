@@ -1,6 +1,6 @@
-var level = require('level-browserify')
-    multilevel = require('multilevel')
+var multilevel = require('multilevel')
+    sublevels = require('./sublevels')
 
-var db = multilevel.server(level(__dirname + '/appdb'))
-multilevel.writeManifest(db, __dirname + '/manifest.json')
+var db = multilevel.server(sublevels)
+multilevel.writeManifest(sublevels, __dirname + '/manifest.json')
 module.exports = db

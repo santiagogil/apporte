@@ -22,6 +22,7 @@
   "dependencies": {
     "ecstatic": "^0.8.0",
     "level-browserify": "^1.0.0",
+    "level-sublevel": "^6.4.6",
     "multilevel": "^6.1.0",
     "shoe": "0.0.15"
   }
